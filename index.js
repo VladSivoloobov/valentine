@@ -7,7 +7,7 @@
     autoplay: true,
     loop: true,
     canvas: document.getElementById("canvas"),
-    src: "/src/animations/3-53722.json",
+    src: "./src/animations/3-53722.json",
   });
 
   const yesButton = document.querySelector(".yes");
@@ -37,7 +37,7 @@
           nb_sides: 3,
         },
         image: {
-          src: "/src/heart.png",
+          src: "./src/heart.png",
           width: 50,
           height: 50,
         },
@@ -142,7 +142,7 @@
       autoplay: true,
       loop: true,
       canvas: document.getElementById("canvas"),
-      src: "/src/animations/3-53717.json",
+      src: "./src/animations/3-53717.json",
     });
 
     h1.textContent = "О БОЖЕ! ТЫ СКАЗАЛА ДА 😍😍";
@@ -158,7 +158,7 @@
       autoplay: true,
       loop: true,
       canvas: document.getElementById("canvas"),
-      src: "/src/animations/3-53710.json",
+      src: "./src/animations/3-53710.json",
     });
 
     const titles = ["Может попробуем?", "Ты ошиблась кнопкой?", "Что такое?"];
